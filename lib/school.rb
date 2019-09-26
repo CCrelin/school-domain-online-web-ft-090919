@@ -7,7 +7,7 @@ class School
   end
   
   def add_student(name, grade)
-    unless name.include?(name)
-    roster << name
+    unless grade.include?(grade)
+    roster << grade
   end
 end
